@@ -60,7 +60,7 @@ AI工具箱是一个一站式AI工具导航平台，收集和分类各种前沿A
 ## 数据库配置
 
 当前系统配置使用远程MySQL数据库：
-- 主机: 172.31.46.204
+- 主机: 
 - 端口: 9998
 - 用户名: root
 - 密码: HA4z4tJMKXzy5hwm
@@ -99,5 +99,4 @@ MIT License
 
 ## 联系方式
 
-- 邮箱：contact@aitoolkit.com
-- 官方网站：https://aitoolkit.com 
+- 邮箱：601395276@qq.com
