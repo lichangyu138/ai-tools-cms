@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI工具箱 - 一站式AI工具集合平台</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <meta name="description" content="AI工具箱是一个提供AI工具、AI前沿资讯、AI教程、AI百科、AI资讯、AI大模型评测为一体的全聚合平台">
+    <!-- 图标使用Font Awesome 6.4.0中的图标，工具卡片颜色由CSS渐变自动生成 -->
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1>AI工具箱</h1>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#" class="active" data-category="hot">热门推荐</a></li>
+                <li><a href="#" data-category="video">AI视频工具</a></li>
+                <li><a href="#" data-category="coding">AI编程助手</a></li>
+                <li><a href="#" data-category="writing">AI写作</a></li>
+                <li><a href="#" data-category="image">AI图像生成</a></li>
+                <li><a href="#" data-category="design">AI设计工具</a></li>
+                <li><a href="#" data-category="audio">AI音频工具</a></li>
+                <li><a href="#" data-category="office">AI办公套件</a></li>
+                <li><a href="#" data-category="model">AI大模型</a></li>
+                <li><a href="#">更多工具 <i class="fas fa-angle-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#" data-category="avatar">AI数字人</a></li>
+                        <li><a href="#" data-category="translation">AI翻译助手</a></li>
+                        <li><a href="#" data-category="marketing">AI营销工具</a></li>
+                        <li><a href="#" data-category="search">AI搜索引擎</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2>发现最前沿的AI工具</h2>
+            <p>部分网站需要科学上网才能打开</p>
+        </section>
+
+        <section class="category active" id="hot">
+            <h2 class="section-title">热门推荐</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon color-1">
+                        <i class="fab fa-connectdevelop"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>ChatGPT</h3>
+                        <p>OpenAI推出的对话式AI助手，包含GPT-4o等多个模型版本，视觉理解和语言处理能力强大</p>
+                    </div>
+                    <a href="https://chat.openai.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon color-2">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Cursor</h3>
+                        <p>旨在让你获得超凡的生产力，Cursor是使用AI编写代码的最佳方式</p>
+                    </div>
+                    <a href="https://www.cursor.com/cn" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon color-3">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Midjourney</h3>
+                        <p>强大的AI图像生成工具，创造高质量艺术作品</p>
+                    </div>
+                    <a href="https://www.midjourney.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon color-4">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Claude</h3>
+                        <p>Anthropic推出的AI助手，善于复杂思考和长文本处理</p>
+                    </div>
+                    <a href="https://claude.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon color-5">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Gemini</h3>
+                        <p>Google推出的多模态AI模型，融合文本、图像和视频理解</p>
+                    </div>
+                    <a href="https://gemini.google.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon color-6">
+                        <i class="fas fa-file-powerpoint"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>AiPPT</h3>
+                        <p>AI助力，高效制作优质PPT演示文稿</p>
+                    </div>
+                    <a href="https://www.aippt.cn/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon color-7">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Suno</h3>
+                        <p>AI音乐创作工具，输入提示词即可生成高质量原创音乐</p>
+                    </div>
+                    <a href="https://suno.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-hands"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Manus</h3>
+                        <p>全球首款通用Agent（自主智能体）产品。Manus定位于一位性能强大的通用型助手</p>
+                    </div>
+                    <a href="https://manus.im" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Trae</h3>
+                        <p>自适应AI编程环境，通过智能协作方式提升开发速度和编码效率</p>
+                    </div>
+                    <a href="https://www.trae.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Coze</h3>
+                        <p>字节跳动推出的AI应用开发平台，可快速构建AI助手和智能体</p>
+                    </div>
+                    <a href="https://www.coze.cn/home" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>文心智能体</h3>
+                        <p>百度推出的基于文心大模型的AI应用开发平台，支持零代码、低代码开发</p>
+                    </div>
+                    <a href="https://agents.baidu.com/center" class="tool-link" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="video">
+            <h2 class="section-title">AI视频工具</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fab fa-openai"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Sora</h3>
+                        <p>OpenAI推出的文本生成视频模型，能根据文本描述创建逼真且连贯的长视频内容</p>
+                    </div>
+                    <a href="https://openai.com/sora" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Runway</h3>
+                        <p>创新的AI视频生成和编辑平台，支持文本生成视频</p>
+                    </div>
+                    <a href="https://runwayml.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Luma</h3>
+                        <p>顶级AI视频生成工具，支持高质量的文本转视频功能</p>
+                    </div>
+                    <a href="https://lumalabs.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Pika</h3>
+                        <p>功能强大的AI视频创作工具，能将图片和文本转换为精美视频</p>
+                    </div>
+                    <a href="https://pika.art/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>可灵</h3>
+                        <p>国内领先的AI视频生成工具，提供多种视频创作能力</p>
+                    </div>
+                    <a href="https://www.aixkl.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Pixverse</h3>
+                        <p>精确的AI视频编辑工具，可实现视频风格转换和效果增强</p>
+                    </div>
+                    <a href="https://pixverse.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-photo-video"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Gen-2</h3>
+                        <p>由Runway推出的下一代AI视频模型，能创建高品质短视频</p>
+                    </div>
+                    <a href="https://research.runwayml.com/gen2" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-dream"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Dream Machine</h3>
+                        <p>新兴的AI视频生成引擎，渲染效果优秀，支持多场景视频创作</p>
+                    </div>
+                    <a href="https://www.dreammachine.dev/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>FlexClip</h3>
+                        <p>AI驱动的视频编辑器，支持文生图和图生图功能，简化视频创作流程</p>
+                    </div>
+                    <a href="https://www.flexclip.com/" class="tool-link" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="coding">
+            <h2 class="section-title">AI编程助手</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Cursor</h3>
+                        <p>基于AI的代码编辑器，集成ChatGPT能力帮助编写、理解和调试代码</p>
+                    </div>
+                    <a href="https://cursor.sh/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>GitHub Copilot</h3>
+                        <p>微软与OpenAI合作开发的AI编程助手，提供代码自动补全</p>
+                    </div>
+                    <a href="https://github.com/features/copilot" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>CodeGeeX</h3>
+                        <p>国内开源AI编程助手，支持多种编程语言的代码生成与补全</p>
+                    </div>
+                    <a href="https://codegeex.cn/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Tabnine</h3>
+                        <p>专注于代码补全的AI编程助手，支持多种IDE和编程语言</p>
+                    </div>
+                    <a href="https://www.tabnine.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Replit</h3>
+                        <p>基于浏览器的编码平台，集成AI编程助手Ghostwriter</p>
+                    </div>
+                    <a href="https://replit.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Kite</h3>
+                        <p>支持离线使用的AI编程助手，提供智能代码补全和文档</p>
+                    </div>
+                    <a href="https://www.kite.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Codium</h3>
+                        <p>开源AI编程工具，提供代码补全、审查和重构建议</p>
+                    </div>
+                    <a href="https://www.codium.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Blackbox</h3>
+                        <p>AI驱动的代码助手，支持代码搜索、生成和调试</p>
+                    </div>
+                    <a href="https://www.useblackbox.io/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Amazon CodeWhisperer</h3>
+                        <p>亚马逊推出的AI编程助手，提供实时代码建议和安全扫描</p>
+                    </div>
+                    <a href="https://aws.amazon.com/codewhisperer/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Trae</h3>
+                        <p>自适应AI编程环境，通过智能协作方式提升开发速度和编码效率</p>
+                    </div>
+                    <a href="https://www.trae.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Phind</h3>
+                        <p>面向开发者的AI搜索引擎，专注于技术问题解答和代码示例</p>
+                    </div>
+                    <a href="https://www.phind.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>AI21 Studio</h3>
+                        <p>提供开发和定制AI模型的API，特别适合处理代码和文本相关任务</p>
+                    </div>
+                    <a href="https://studio.ai21.com/" class="tool-link" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="writing">
+            <h2 class="section-title">AI写作工具</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Notion AI</h3>
+                        <p>将AI功能集成到笔记和知识管理中，提高写作效率</p>
+                    </div>
+                    <a href="https://www.notion.so/product/ai" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Jasper</h3>
+                        <p>专业AI内容创作平台，适用于博客、社交媒体等多种内容</p>
+                    </div>
+                    <a href="https://www.jasper.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Copy.ai</h3>
+                        <p>AI文案生成工具，适用于营销、广告等多种商业文案创作</p>
+                    </div>
+                    <a href="https://www.copy.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>文心一言</h3>
+                        <p>百度推出的生成式AI大模型，具备中文理解和创作能力</p>
+                    </div>
+                    <a href="https://yiyan.baidu.com/" class="tool-link" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="image">
+            <h2 class="section-title">AI图像生成</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Midjourney</h3>
+                        <p>顶级AI图像生成工具，能创造超高品质和艺术感的图像作品</p>
+                    </div>
+                    <a href="https://www.midjourney.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>DALL-E</h3>
+                        <p>OpenAI推出的AI图像生成系统，可根据文本描述创建多样化图像</p>
+                    </div>
+                    <a href="https://openai.com/dall-e-3" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Ideogram</h3>
+                        <p>创新AI图像生成工具，特别擅长制作含有文字和排版的图像</p>
+                    </div>
+                    <a href="https://ideogram.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>可灵</h3>
+                        <p>国内领先的AI创意工具，支持图像生成、编辑和风格转换</p>
+                    </div>
+                    <a href="https://www.aixkl.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Gemini</h3>
+                        <p>Google多模态AI模型，能够理解和生成文本与图像</p>
+                    </div>
+                    <a href="https://gemini.google.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Flash</h3>
+                        <p>超快速AI图像生成工具，几秒钟内就能创建高质量图像</p>
+                    </div>
+                    <a href="https://flashai.me/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Stable Diffusion</h3>
+                        <p>开源的AI图像生成模型，支持本地部署和高度自定义</p>
+                    </div>
+                    <a href="https://stability.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Flux</h3>
+                        <p>开源AI图像生成工具，支持多种生成模型和创作风格</p>
+                    </div>
+                    <a href="https://flux-ai.io/cn/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Leonardo.AI</h3>
+                        <p>AI创意工具平台，提供高度自定义的图像生成和编辑功能</p>
+                    </div>
+                    <a href="https://leonardo.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>liblib</h3>
+                        <p>国内优质AI绘画社区，支持多种AI模型和艺术风格的图像生成</p>
+                    </div>
+                    <a href="https://www.liblib.art/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-feather-alt"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Whisk</h3>
+                        <p>新兴的AI图像生成工具，以简洁的界面和高质量图像效果著称</p>
+                    </div>
+                    <a href="https://whisk.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-vector-square"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Recraft</h3>
+                        <p>专为设计师打造的AI工具，支持排版设计、矢量图生成和样机设计</p>
+                    </div>
+                    <a href="https://www.recraft.ai/" class="tool-link" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="design">
+            <h2 class="section-title">AI设计工具</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Figma</h3>
+                        <p>领先的设计工具，集成AI功能助力界面设计和原型制作</p>
+                    </div>
+                    <a href="https://www.figma.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Canva</h3>
+                        <p>简易设计平台，搭载AI设计功能，适合海报、演示文稿等创作</p>
+                    </div>
+                    <a href="https://www.canva.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Adobe Firefly</h3>
+                        <p>Adobe推出的生成式AI创意工具，可创建各类设计素材</p>
+                    </div>
+                    <a href="https://firefly.adobe.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Uizard</h3>
+                        <p>AI驱动的设计工具，能快速将草图转换为UI设计原型</p>
+                    </div>
+                    <a href="https://uizard.io/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Galileo AI</h3>
+                        <p>AI界面设计工具，通过自然语言描述生成UI/UX设计</p>
+                    </div>
+                    <a href="https://www.usegalileo.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>AutoDraw</h3>
+                        <p>Google AI实验项目，能将草图转换为精美的图形设计</p>
+                    </div>
+                    <a href="https://www.autodraw.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Khroma</h3>
+                        <p>AI色彩工具，学习用户喜好生成个性化配色方案</p>
+                    </div>
+                    <a href="https://www.khroma.co/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Designs.ai</h3>
+                        <p>AI设计套件，提供徽标、视频、横幅等多类型设计生成</p>
+                    </div>
+                    <a href="https://designs.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Logo.ai</h3>
+                        <p>专业AI徽标生成工具，提供无限可能的品牌标识设计</p>
+                    </div>
+                    <a href="https://www.logoai.com/" class="tool-link" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="audio">
+            <h2 class="section-title">AI音频工具</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>通义听悟</h3>
+                        <p>阿里推出的智能会议助手，自动生成会议记录和提取会议重点</p>
+                    </div>
+                    <a href="https://tingwu.aliyun.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Otter.ai</h3>
+                        <p>AI会议助手，实时录音转文字并生成精确的会议纪要</p>
+                    </div>
+                    <a href="https://otter.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Krisp</h3>
+                        <p>AI降噪工具，实时消除背景噪音，提升通话和录音质量</p>
+                    </div>
+                    <a href="https://krisp.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Descript</h3>
+                        <p>革命性音视频编辑平台，支持文本编辑视频和克隆声音</p>
+                    </div>
+                    <a href="https://www.descript.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Whisper</h3>
+                        <p>OpenAI开源的高精度语音识别系统，支持多语言转录</p>
+                    </div>
+                    <a href="https://github.com/openai/whisper" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>ElevenLabs</h3>
+                        <p>最先进的AI语音合成平台，生成超逼真的人工语音</p>
+                    </div>
+                    <a href="https://elevenlabs.io/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Murf AI</h3>
+                        <p>专业AI配音工具，提供多种真人音色和情感表达</p>
+                    </div>
+                    <a href="https://murf.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Songr</h3>
+                        <p>AI歌词创作助手，帮助音乐人创作高质量的歌词内容</p>
+                    </div>
+                    <a href="https://songr.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Resemble AI</h3>
+                        <p>AI语音克隆技术，创建逼真的定制化合成声音</p>
+                    </div>
+                    <a href="https://www.resemble.ai/" class="tool-link" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="model">
+            <h2 class="section-title">AI大模型</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>ChatGPT</h3>
+                        <p>OpenAI推出的对话式AI助手，包含GPT-4o等多个模型版本，视觉理解和语言处理能力强大</p>
+                    </div>
+                    <a href="https://chat.openai.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Claude</h3>
+                        <p>Anthropic推出的AI助手，包含Opus、Sonnet和Haiku三个版本，善于复杂思考和长文本处理</p>
+                    </div>
+                    <a href="https://claude.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Gemini</h3>
+                        <p>Google推出的多模态AI模型，融合文本、图像和视频理解</p>
+                    </div>
+                    <a href="https://gemini.google.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>豆包</h3>
+                        <p>字节跳动推出的AI助手，支持多模态交互，提供丰富的信息服务</p>
+                    </div>
+                    <a href="https://www.doubao.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Deepseek</h3>
+                        <p>由国内团队开发的开源大语言模型，在多领域表现出色</p>
+                    </div>
+                    <a href="https://www.deepseek.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>通义千问</h3>
+                        <p>阿里云推出的大语言模型，具有强大的中文理解能力和知识库</p>
+                    </div>
+                    <a href="https://qianwen.aliyun.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Yi</h3>
+                        <p>零一万物推出的开源大模型，在全球评测中表现优异的中文大模型</p>
+                    </div>
+                    <a href="https://www.01.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Llama 3</h3>
+                        <p>Meta最新开源的大模型，具有强大的开放能力和广泛适用性</p>
+                    </div>
+                    <a href="https://llama.meta.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>智谱清言</h3>
+                        <p>基于GLM技术的AI助手，包含GLM-4等多个版本，支持128K超长上下文窗口，具有强大的中英双语处理和创作能力</p>
+                    </div>
+                    <a href="https://chatglm.cn/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>文心一言</h3>
+                        <p>百度推出的大规模语言模型，专注于中文创作和知识问答</p>
+                    </div>
+                    <a href="https://yiyan.baidu.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>讯飞星火</h3>
+                        <p>科大讯飞推出的认知大模型，具备强大的中文理解与知识推理能力</p>
+                    </div>
+                    <a href="https://xinghuo.xfyun.cn/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>KIMI</h3>
+                        <p>月之暗面推出的AI助手，支持200万字超长上下文，信息检索能力强</p>
+                    </div>
+                    <a href="https://kimi.moonshot.cn/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>SenseNova</h3>
+                        <p>商汤科技推出的日日新大模型，具备超强的多模态认知能力</p>
+                    </div>
+                    <a href="https://platform.sensenova.cn/home" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>天工</h3>
+                        <p>昆仑万维推出的国产大模型，覆盖文本生成、智能问答等多种应用场景</p>
+                    </div>
+                    <a href="https://www.tiangong.cn/" class="tool-link" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="office">
+            <h2 class="section-title">AI办公套件</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Microsoft Copilot</h3>
+                        <p>微软推出的AI助手，与Office套件深度集成，提升日常办公效率</p>
+                    </div>
+                    <a href="https://copilot.microsoft.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Manus</h3>
+                        <p>全球首款通用Agent（自主智能体）产品。Manus定位于一位性能强大的通用型助手</p>
+                    </div>
+                    <a href="https://manus.im" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>飞书</h3>
+                        <p>字节跳动推出的协作平台，集成多种AI功能助力团队协作</p>
+                    </div>
+                    <a href="https://www.feishu.cn/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>钉钉</h3>
+                        <p>阿里巴巴推出的智能办公平台，整合AI技术提升沟通与协作效率</p>
+                    </div>
+                    <a href="https://www.dingtalk.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>AiPPT</h3>
+                        <p>国内领先的AI演示文稿创建工具，一键生成精美PPT</p>
+                    </div>
+                    <a href="https://www.aippt.cn/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Google Workspace</h3>
+                        <p>Google办公套件集成Gemini AI功能，增强文档、表格等应用能力</p>
+                    </div>
+                    <a href="https://workspace.google.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Notion</h3>
+                        <p>集笔记、知识库、项目管理于一体的协作平台，整合AI辅助功能</p>
+                    </div>
+                    <a href="https://www.notion.so/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Xmind</h3>
+                        <p>思维导图工具，集成AI功能帮助快速组织和拓展思路</p>
+                    </div>
+                    <a href="https://xmind.cn/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>tldraw</h3>
+                        <p>开源绘图工具，结合AI能力将草图转换为精美图形和图表</p>
+                    </div>
+                    <a href="https://www.tldraw.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>ClickUp</h3>
+                        <p>集项目管理、文档和AI助手于一体的全能生产力平台</p>
+                    </div>
+                    <a href="https://clickup.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Gamma</h3>
+                        <p>领先的AI演示文稿生成工具，能根据内容自动生成精美的幻灯片</p>
+                    </div>
+                    <a href="https://gamma.app/" class="tool-link" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="avatar">
+            <h2 class="section-title">AI数字人</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-user-robot"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>HeyGen</h3>
+                        <p>领先的AI视频生成平台，创建逼真的数字人视频内容</p>
+                    </div>
+                    <a href="https://www.heygen.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-user-robot"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Synthesia</h3>
+                        <p>专业AI视频创建平台，从文本生成真人讲解视频</p>
+                    </div>
+                    <a href="https://www.synthesia.io/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-user-robot"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>微软小冰</h3>
+                        <p>中国领先的AI数字人提供商，拥有情感计算和多模态能力</p>
+                    </div>
+                    <a href="https://www.xiaoice.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-user-robot"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>D-ID</h3>
+                        <p>创新数字人生成技术，让静态照片"开口说话"</p>
+                    </div>
+                    <a href="https://www.d-id.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-user-robot"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>轩辕城</h3>
+                        <p>国内领先数字人平台，提供多场景定制化数字人解决方案</p>
+                    </div>
+                    <a href="https://www.xverse.cn/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-user-robot"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Elai</h3>
+                        <p>无需摄影棚的AI视频生成平台，只需文本即可创建数字人视频</p>
+                    </div>
+                    <a href="https://elai.io/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-user-robot"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Soul Machines</h3>
+                        <p>创建超逼真的自主数字人，适用于客户服务和品牌代言</p>
+                    </div>
+                    <a href="https://www.soulmachines.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-user-robot"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Character.AI</h3>
+                        <p>创建个性化AI角色，进行逼真的对话互动</p>
+                    </div>
+                    <a href="https://beta.character.ai/" class="tool-link" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="translation">
+            <h2 class="section-title">AI翻译助手</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>DeepL</h3>
+                        <p>全球最精准的AI翻译工具之一，支持多种语言的高质量翻译</p>
+                    </div>
+                    <a href="https://www.deepl.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>有道翻译</h3>
+                        <p>网易旗下AI翻译工具，支持多语种翻译和专业领域术语翻译</p>
+                    </div>
+                    <a href="https://fanyi.youdao.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>百度翻译</h3>
+                        <p>中国领先的AI翻译平台，支持200多种语言的即时翻译</p>
+                    </div>
+                    <a href="https://fanyi.baidu.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Google翻译</h3>
+                        <p>全球使用最广泛的翻译工具，支持100多种语言互译</p>
+                    </div>
+                    <a href="https://translate.google.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>讯飞翻译</h3>
+                        <p>科大讯飞推出的智能翻译工具，支持多种场景的实时翻译</p>
+                    </div>
+                    <a href="https://fanyi.xfyun.cn/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Whisper</h3>
+                        <p>OpenAI开源的语音识别系统，支持多语言转录</p>
+                    </div>
+                    <a href="https://github.com/openai/whisper" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Lingvanex</h3>
+                        <p>专业AI翻译解决方案，支持文本、语音和文档的精准翻译</p>
+                    </div>
+                    <a href="https://lingvanex.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Papago</h3>
+                        <p>NAVER旗下的AI翻译工具，在亚洲语言翻译方面表现突出</p>
+                    </div>
+                    <a href="https://papago.naver.com/" class="tool-link" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="marketing">
+            <h2 class="section-title">AI营销工具</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Copy.ai</h3>
+                        <p>AI营销文案生成工具，帮助创建广告、邮件和社交媒体内容</p>
+                    </div>
+                    <a href="https://www.copy.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Jasper</h3>
+                        <p>全能型AI营销内容创作平台，提供文案、图像和视频生成</p>
+                    </div>
+                    <a href="https://www.jasper.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Anyword</h3>
+                        <p>AI文案工具，根据转化率数据优化营销内容效果</p>
+                    </div>
+                    <a href="https://anyword.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Surfer SEO</h3>
+                        <p>AI驱动的SEO工具，优化内容以提高搜索引擎排名</p>
+                    </div>
+                    <a href="https://surferseo.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>AdCreative.ai</h3>
+                        <p>AI广告创意生成平台，自动创建高转化率的营销素材</p>
+                    </div>
+                    <a href="https://www.adcreative.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Persado</h3>
+                        <p>基于情感分析的AI营销文案平台，增强客户沟通效果</p>
+                    </div>
+                    <a href="https://www.persado.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Mailchimp</h3>
+                        <p>集成AI功能的电子邮件营销平台，优化邮件内容和发送时间</p>
+                    </div>
+                    <a href="https://mailchimp.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Frase</h3>
+                        <p>AI内容优化工具，帮助创建SEO友好的营销内容</p>
+                    </div>
+                    <a href="https://www.frase.io/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>HubSpot</h3>
+                        <p>CRM平台中集成AI功能，帮助优化客户营销和销售流程</p>
+                    </div>
+                    <a href="https://www.hubspot.com/" class="tool-link" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="search">
+            <h2 class="section-title">AI搜索引擎</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Perplexity</h3>
+                        <p>基于AI的信息发现引擎，提供准确引用来源的即时回答</p>
+                    </div>
+                    <a href="https://www.perplexity.ai/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>必应AI</h3>
+                        <p>微软推出的新一代AI搜索引擎，集成Copilot对话能力</p>
+                    </div>
+                    <a href="https://www.bing.com/new" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Kimi</h3>
+                        <p>国内领先的AI搜索引擎，提供精准信息检索和对话式问答</p>
+                    </div>
+                    <a href="https://kimi.moonshot.cn/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>You.com</h3>
+                        <p>基于AI的搜索引擎，支持自然语言问答和代码生成</p>
+                    </div>
+                    <a href="https://you.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Phind</h3>
+                        <p>面向开发者的AI搜索引擎，专注于技术问题解答和代码示例</p>
+                    </div>
+                    <a href="https://www.phind.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Neeva</h3>
+                        <p>注重隐私的AI搜索引擎，不跟踪用户数据的同时提供精准结果</p>
+                    </div>
+                    <a href="https://neeva.com/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Elicit</h3>
+                        <p>AI研究助手，帮助研究人员通过自然语言查找学术文献</p>
+                    </div>
+                    <a href="https://elicit.org/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>Consensus</h3>
+                        <p>AI驱动的学术搜索引擎，聚合和总结科学研究结果</p>
+                    </div>
+                    <a href="https://consensus.app/" class="tool-link" target="_blank"></a>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="tool-info">
+                        <h3>搜狗AI助手</h3>
+                        <p>腾讯旗下的AI搜索引擎，提供中文内容的精准检索和问答服务</p>
+                    </div>
+                    <a href="https://ai.sogou.com/" class="tool-link" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>AI工具箱</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
