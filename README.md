@@ -98,5 +98,3 @@ ai-toolkit-cms/
 MIT License
 
 ## 联系方式
-
-- 邮箱：601395276@qq.com
